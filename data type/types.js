@@ -13,9 +13,11 @@ let nullable = null;
 
 // Compostos
 
-array = [1, 2, 3, 4, 5]
+let array = [1, 2, 3, 4, 5]
 
-object = {
+let object = {
     name: "Daniel",
     age: 21
 }
+
+console.log(array);

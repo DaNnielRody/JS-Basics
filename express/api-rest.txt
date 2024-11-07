@@ -1,0 +1,10 @@
+As mentioned earlier, REST is a set of guidelines. There are five requirements for an API to be considered
+RESTful, plus one optional criterion:
+
+The API leverages a client-server architecture made up of resources that are managed and
+delivered via HTTP.
+Communication between client and server is stateless37.
+Data is cacheable38 to improve performance on the client side.
+The interface is transferred in a standard format such that the requested resources stored on the server are separated from the representation sent to the client. The representation sent to the client contains sufficient data so that the client can manipulate the representation.
+Requests and responses communicate through different layers, such as middleware39. The client and server often do not communicate directly with each other.
+(Optional) Resources are usually static but can also contain executable code. The code should only be executed when the client requests it.
